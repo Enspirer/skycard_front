@@ -40,18 +40,10 @@
     box-shadow: 8px 5px 20px #0050A035;
     padding-top: 80px;
 }
-.nav {
-    align-items: center;
-    padding-right: 15px!important;
-}
-.nav:hover {
+.side-nav:hover {
     background-color: gray;
     cursor: pointer;
 }
-.nav-link {
-    text-decoration: none;
-}
-
 .sidebar ul li {
     font-size: 15px;
 }
@@ -60,6 +52,7 @@
     display: block;
     text-decoration: none;
     color: black;
+    font-weight: 500;
 }
 
 
