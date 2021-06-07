@@ -28,6 +28,8 @@
     font-weight: 600;
 }
 
+
+
 /* Left Side Custom Styles */
 .left {
     border: 0.3px solid #0066CC!important;
@@ -36,6 +38,7 @@
     height: 100vh;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #D7E4EB 100%) 0% 0% no-repeat padding-box;
     box-shadow: 8px 5px 20px #0050A035;
+    padding-top: 80px;
 }
 .nav {
     align-items: center;
@@ -57,7 +60,6 @@
     display: block;
     text-decoration: none;
     color: black;
-    font-weight: 600;
 }
 
 
@@ -109,11 +111,3 @@ th {
 .lost {
     background: #979797 0% 0% no-repeat padding-box!important;
 }
-/* .table-select {
-    font-size: 15px;
-    color: white;
-    border: none;
-    outline: none;
-    border-radius: 3px;
-    cursor: pointer;
-} */
