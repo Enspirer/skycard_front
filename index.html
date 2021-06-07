@@ -20,7 +20,7 @@
                 <h2 class="logo-sky">Sky Cards <span class="logo-elite">Elite</span></h2>
             </div>
             <div class="col-3 account text-center">
-                <div class="dropdown account">
+                <nav class="navbar dropdown account">
                     <button type="button" data-bs-toggle="dropdown" class="dropdown-toggle"><span>A</span> Admin</button>
                     <div class="dropdown-menu">
                         <a href="#" class="dropdown-item"><i class="fa fa-user-o"></i> Profile</a></a>
@@ -29,7 +29,7 @@
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item"><i class="material-icons">&#xE8AC;</i> Logout</a></a>
                     </div>
-                </div>
+                </nav>
             </div>
         </div>
     </header>
@@ -93,10 +93,7 @@
                 </div>
 
                 
-
-                <div class="container ms-0mt-5">
-
-                    <div class="row filter">
+                    <div class="row filter mt-5">
                         <div class="col">
                             <label class="fw-bold" for="show">Show:</label>
                             <select name="show" id="show">
@@ -128,14 +125,16 @@
                                         <h6 class="col">Hemas Pharmaceuticals</h6>
                                     </div>
                                     <div class="col-5">
-                                        <select class="table-select potential">
-                                            <option value="won" class="won">Won</option>
-                                            <option value="negotiation" class="negotiation">Negotiation</option>
-                                            <option value="proposal" class="proposal">Proposal</option>
-                                            <option value="potential" class="potential" selected>Potential</option>
-                                            <option value="lost" class="lost">Lost</option>
-                                            <option value="undistributed" class="undistributed">Undistributed</option>
-                                        </select>
+                                        <form>
+                                            <select class="form-control table-select potential">
+                                                <option value="won" class="won">Won</option>
+                                                <option value="negotiation" class="negotiation">Negotiation</option>
+                                                <option value="proposal" class="proposal">Proposal</option>
+                                                <option value="potential" class="potential" selected>Potential</option>
+                                                <option value="lost" class="lost">Lost</option>
+                                                <option value="undistributed" class="undistributed">Undistributed</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                                 <p class="text-muted name-message"><span class="text-success">$3000,</span> Last log:&nbsp &nbsp sent quotation 12 May 2021 at 10.00 am</p>
@@ -157,17 +156,19 @@
                             <td>
                                 <div class="row">
                                     <div class="col-7">
-                                        <h6 class="col-auto">MB Company</h6>
+                                        <h6 class="col">MB Company</h6>
                                     </div>
                                     <div class="col-5">
-                                        <select class="table-select negotiation">
-                                            <option value="won" class="won">Won</option>
-                                            <option value="negotiation" class="negotiation" selected>Negotiation</option>
-                                            <option value="proposal" class="proposal">Proposal</option>
-                                            <option value="potential" class="potential">Potential</option>
-                                            <option value="lost" class="lost">Lost</option>
-                                            <option value="undistributed" class="undistributed">Undistributed</option>
-                                        </select>
+                                        <form>
+                                            <select class="form-control table-select negotiation">
+                                                <option value="won" class="won">Won</option>
+                                                <option value="negotiation" class="negotiation" selected>Negotiation</option>
+                                                <option value="proposal" class="proposal">Proposal</option>
+                                                <option value="potential" class="potential">Potential</option>
+                                                <option value="lost" class="lost">Lost</option>
+                                                <option value="undistributed" class="undistributed">Undistributed</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                                 <p class="text-muted name-message"><span class="text-success">$3000,</span> Last log:&nbsp &nbsp Call 20 min 12 May 2021 at 10.00 am</p>
@@ -190,17 +191,19 @@
                             <td>
                                 <div class="row">
                                     <div class="col-7">
-                                        <h6 class="col-auto">LongD (pvt)</h6>
+                                        <h6 class="col">LongD (pvt)</h6>
                                     </div>
                                     <div class="col-5">
-                                        <select class="table-select won">
-                                            <option value="won" class="won" selected>Won</option>
-                                            <option value="negotiation" class="negotiation">Negotiation</option>
-                                            <option value="proposal" class="proposal">Proposal</option>
-                                            <option value="potential" class="potential">Potential</option>
-                                            <option value="lost" class="lost">Lost</option>
-                                            <option value="undistributed" class="undistributed">Undistributed</option>
-                                        </select>
+                                        <form>
+                                            <select class="form-control table-select won">
+                                                <option value="won" class="won" selected>Won</option>
+                                                <option value="negotiation" class="negotiation">Negotiation</option>
+                                                <option value="proposal" class="proposal">Proposal</option>
+                                                <option value="potential" class="potential">Potential</option>
+                                                <option value="lost" class="lost">Lost</option>
+                                                <option value="undistributed" class="undistributed">Undistributed</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                                 <p class="text-muted name-message"><span class="text-success">$3000,</span> Last log:&nbsp &nbsp Call 20 min 12 May 2021 at 10.00 am</p>
@@ -222,17 +225,19 @@
                             <td>
                                 <div class="row">
                                     <div class="col-7">
-                                        <h6 class="col-auto">James & Sons</h6>
+                                        <h6 class="col">James & Sons</h6>
                                     </div>
                                     <div class="col-5">
-                                        <select class="table-select won">
-                                            <option value="won" class="won" selected>Won</option>
-                                            <option value="negotiation" class="negotiation">Negotiation</option>
-                                            <option value="proposal" class="proposal">Proposal</option>
-                                            <option value="potential" class="potential">Potential</option>
-                                            <option value="lost" class="lost">Lost</option>
-                                            <option value="undistributed" class="undistributed">Undistributed</option>
-                                        </select>
+                                        <form>
+                                            <select class="form-control table-select won">
+                                                <option value="won" class="won" selected>Won</option>
+                                                <option value="negotiation" class="negotiation">Negotiation</option>
+                                                <option value="proposal" class="proposal">Proposal</option>
+                                                <option value="potential" class="potential">Potential</option>
+                                                <option value="lost" class="lost">Lost</option>
+                                                <option value="undistributed" class="undistributed">Undistributed</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                                 <p class="text-muted name-message"><span class="text-success">$3000,</span> Last log:&nbsp &nbsp Call 20 min 12 May 2021 at 10.00 am</p>
@@ -254,17 +259,19 @@
                             <td>
                                 <div class="row">
                                     <div class="col-7">
-                                        <h6 class="col-auto">Rowling (pvt) LTD</h6>
+                                        <h6 class="col">Rowling (pvt) LTD</h6>
                                     </div>
                                     <div class="col-5">
-                                        <select class="table-select proposal">
-                                            <option value="won" class="won">Won</option>
-                                            <option value="negotiation" class="negotiation">Negotiation</option>
-                                            <option value="proposal" class="proposal" selected>Proposal</option>
-                                            <option value="potential" class="potential">Potential</option>
-                                            <option value="lost" class="lost">Lost</option>
-                                            <option value="undistributed" class="undistributed">Undistributed</option>
-                                        </select>
+                                        <form>
+                                            <select class="form-control table-select proposal">
+                                                <option value="won" class="won">Won</option>
+                                                <option value="negotiation" class="negotiation">Negotiation</option>
+                                                <option value="proposal" class="proposal" selected>Proposal</option>
+                                                <option value="potential" class="potential">Potential</option>
+                                                <option value="lost" class="lost">Lost</option>
+                                                <option value="undistributed" class="undistributed">Undistributed</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                                 <p class="text-muted name-message"><span class="text-success">$3000,</span> Last log:&nbsp &nbsp Call 20 min 12 May 2021 at 10.00 am</p>
@@ -287,17 +294,19 @@
                             <td>
                                 <div class="row">
                                     <div class="col-7">
-                                        <h6 class="col-auto">Hela Com</h6>
+                                        <h6 class="col">Hela Com</h6>
                                     </div>
                                     <div class="col-5">
-                                        <select class="table-select lost">
-                                            <option value="won" class="won">Won</option>
-                                            <option value="negotiation" class="negotiation">Negotiation</option>
-                                            <option value="proposal" class="proposal">Proposal</option>
-                                            <option value="potential" class="potential">Potential</option>
-                                            <option value="lost" class="lost" selected>Lost</option>
-                                            <option value="undistributed" class="undistributed">Undistributed</option>
-                                        </select>
+                                        <form>
+                                            <select class="form-control table-select lost">
+                                                <option value="won" class="won">Won</option>
+                                                <option value="negotiation" class="negotiation">Negotiation</option>
+                                                <option value="proposal" class="proposal">Proposal</option>
+                                                <option value="potential" class="potential">Potential</option>
+                                                <option value="lost" class="lost" selected>Lost</option>
+                                                <option value="undistributed" class="undistributed">Undistributed</option>
+                                            </select>
+                                        </form>
                                     </div>
                                 </div>
                                 <p class="text-muted name-message"><span class="text-success">$3000,</span> Last log:&nbsp &nbsp Call 20 min 12 May 2021 at 10.00 am</p>
@@ -316,7 +325,6 @@
 
                     </tbody>
                 </table>
-                </div>
             </div>
         </div>
     </section>
