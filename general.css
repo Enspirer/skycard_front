@@ -1,0 +1,56 @@
+.logo-sky {
+    margin-left: 70px;
+}
+.logo-elite {
+    background-color: #1B8BE0;
+    padding: 12px 8px;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+    color: white;
+}
+.account button {
+    padding: 15px 35px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.account button span {
+    padding: 16px 22px;
+    position: relative;
+    left: -35px;
+    background: #CAE5F7 0% 0% no-repeat;
+    border-radius: 30px;
+    color: #064868;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+/* Left Side Custom Styles */
+.left {
+    border: 0.3px solid #0066CC!important;
+    border-top: none!important;
+    border-bottom: none!important;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #D7E4EB 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 8px 5px 20px #0050A035;
+    padding-top: 80px;
+}
+.side-nav:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.sidebar ul li {
+    font-size: 15px;
+}
+.sidebar ul li a {
+    padding: 15px 0;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
