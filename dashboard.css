@@ -268,12 +268,13 @@ td.hover02:last-child {
 form.search {
   background-color: white;
   width: 175px;
-  height: 22px;
-  border-radius: 5px;
+  height: 25px;
+  border-radius: 4px;
   display:flex;
   flex-direction:row;
   align-items:center;
-  border-style: groove;
+  /*border-style: groove;*/
+  border: 1px solid grey;
 }
 
 input.search2 {
@@ -288,8 +289,8 @@ input.search2 {
 svg {
   color: black;
   fill: currentColor;
-  width: 21px;
-  height: 22px;
+  width: 19px;
+  height: 20px;
   padding: 2px;
 }
 

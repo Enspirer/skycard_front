@@ -49,7 +49,7 @@ th {
 
 
 
-/*my*/
+/*m*/
 
 .row {
   display: flex;
@@ -67,6 +67,51 @@ th {
   
 }
 
+.profiletab {
+    display: inline-block;
+    /*margin: 0 75px;*/
+    padding: 4px 15px;
+    border-radius: 50%;
+    font-size: 23px;
+    background: #CA0000 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+    margin : 0 10px 0 10px;
+}
+.profiletab2 {
+    display: inline-block;
+    /*margin: 0 75px;*/
+    padding: 4px 15px;
+    border-radius: 50%;
+    font-size: 23px;
+    background: #05AE3D 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+    margin : 0 10px 0 10px;
+}
+.profiletab3 {
+    display: inline-block;
+    /*margin: 0 75px;*/
+    padding: 4px 17px;
+    border-radius: 50%;
+    font-size: 23px;
+    background: #1B9DFD 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+    margin : 0 10px 0 10px;
+}
+
+.tabletab{
+
+background: transparent linear-gradient(99deg, #FFFFFF 0%, #F2F9FD 100%) 0% 0% no-repeat padding-box;
+box-shadow: 0px 7px 20px #00507736;
+border-radius: 8px;
+opacity: 1;
+
+height: 50px;
+
+}
+
 
 
 /*************** Style the tab start **************/
@@ -74,16 +119,21 @@ th {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  /*padding: 10px;*/
+ /* padding: 10px;
   max-width: 100%;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
+  margin-left: auto;
+  margin-right: auto;
   display: block;
 
-    /*width: 100%;*/
-  /*border: none;*/
+    width: 100%;
+  border: none;*/
 
-  
+  background: transparent linear-gradient(99deg, #FFFFFF 0%, #F2F9FD 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 7px 20px #00507736;
+  border-radius: 8px;
+  opacity: 1;
+
+  width: 100%;
   
 
 }
@@ -99,6 +149,8 @@ th {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  width: 100%;
+
 }
 
 .tab button:hover {
@@ -107,14 +159,15 @@ th {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #0066CC;
+  color: white;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   border-top: none;
   animation: fadeEffect 1s; 
 }
@@ -248,4 +301,52 @@ th {
 }
 
 
-/*my*/
+
+/*pop*/
+
+.modal-box-left {
+    background: transparent linear-gradient(180deg, #FFFFFF 0%, #D7E4EB 100%) 0% 0% no-repeat padding-box;
+    border: 0.1px solid #707070;
+    border-radius: 8px;
+}
+.modal-left-left {
+    font-size: 14px;
+}
+.modal-left-right {
+    font-size: 14px;
+}
+.close {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    border-style: none;
+    background-color: white;
+}
+.table-name-head {
+    cursor: pointer;
+}
+.profile-image {
+    display: inline-block;
+    margin: 0 75px;
+    padding: 20px 28px;
+    border-radius: 50%;
+    font-size: 25px;
+    background: #CA0000 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: white;
+}
+.date {
+    display: inline-block;
+    padding: 2px 20px;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #C4C4C4;
+    font-size: 10px;
+    margin-bottom: 0!important;
+}
+
+.modal-right-left {
+    font-size: 10px;
+}
+.modal-right-right {
+    font-size: 14px;
+}

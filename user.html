@@ -120,7 +120,7 @@
                     <div class="col-12 col-sm-10 col-md-12 col-lg-4 col-xl-4">
                         <!-- <div class="column1"> -->
         
-                            <div style="border-style: groove; border-radius: 8px; margin: 0px 10px 5px 40px; padding: 0px; background: transparent linear-gradient(180deg, #FFFFFF 0%, #D7E4EB 100%) 0% 0% no-repeat padding-box; border: 0.1px solid #707070; border-radius: 9px; opacity: 1;" align="center">
+                            <div style="border-style: groove; border-radius: 8px; margin: 0px 10px 5px 40px; padding: 0px; background: transparent linear-gradient(164deg, #FFFFFF 0%, #F2F9FD 100%) 0% 0% no-repeat padding-box; box-shadow: 0px 7px 20px #0050774D; border: 0.1px solid #c4c1c1; border-radius: 9px; opacity: 1;" align="center">
                                   <div>
                                     <br>
                                     <img src="images/profile.jpg" style="height:80px; border-radius: 50%; border: 2px solid #FEDE00;" alt="">
@@ -172,61 +172,63 @@
 
                         <!-- <div class="column2"> -->
 
-                        <!-- <h2 style="margin: 0 0 35px 20px;">Activities</h2> -->
-
 
             <!---start--->
 
-                        <div class="tab">
-                          <button class="tablinks" onclick="openTab(event, 'contacts')" id="defaultOpen"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Contacts (1042)</button>
-                          <button class="tablinks" onclick="openTab(event, 'deals')"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;Deals (42)</button>
-                          <button class="tablinks" onclick="openTab(event, 'activities')" ><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Activities(2422)</button>
-                        </div>
+                        <table class="tab" border="1" width="100%">
+                          <tr>
+                            <td width="33%"><button class="tablinks" onclick="openTab(event, 'contacts')" id="defaultOpen"><i class="fas fa-user-circle"></i>&nbsp;&nbsp;Contacts (1042)</button></td>
+                            <td width="34%"><button class="tablinks" onclick="openTab(event, 'deals')"><i class="fas fa-briefcase"></i>&nbsp;&nbsp;Deals (42)</button></td>
+                            <td width="33%"><button class="tablinks" onclick="openTab(event, 'activities')" ><i class="fas fa-chart-line"></i>&nbsp;&nbsp;Activities(2422)</button></td>
+                          </tr>
+                        </table>
 
 
                         <div id="contacts" class="tabcontent">
                             <br>
-                          <h3 style="font-family: Arial; margin-left: 15px; font-size: 22px;">Contacts</h3>
+                          <h3 style="font-family: Arial; font-size: 22px;">Contacts</h3>
+                          <br>
 
-                          <table border="0" width="100%" style="border-collapse: collapse;">
-                            <tr height="40px" style="background-color: #0066CC; color: white; font-weight: bold;">
-                              <td>Name</td>
-                              <td align="center">Card</td>
-                              <td></td>
-                              <td>Email</td>
+                          <table border="1" width="100%" style="border-collapse: collapse; background: #FFFFFF 0% 0% no-repeat padding-box; border: 0.1px solid #c4c1c1; opacity: 1;">
+
+                            <tr height="40px" style="background-color: #0066CC; color: white; font-weight: bold; ">
+                              <td width="35%">&nbsp;&nbsp;&nbsp;Name</td>
+                              <td width="16%" align="center">Card</td>
+                              <td width="21%"></td>
+                              <td width="33%">Email</td>
                             </tr>
-                            <tr height="50px">
-                              <td><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Mr. Kumara Jayakodi</a></td>
+                            <tr height="65px">
+                              <td><a href="#" class="col table-name-head" data-bs-toggle="modal" data-bs-target="#myModal" style="text-decoration: none;"><p class="profiletab">K</p>Mr. Kumara Jayakodi</a></td>
                               <td align="center"><i class="fas fa-money-check" style="color: #4B4B4B;"></i></td>
                               <td style="color: #0066CC">071 222 333</td>
                               <td style="color: #0066CC">kumara@gmail.com</td>
                             </tr>
-                            <tr height="50px">
-                              <td>Ms. Amanda</td>
+                            <tr height="65px">
+                              <td><div style="display: inline;"><img src="images/profile2.jpg" style="height:40px; border-radius: 50%; margin : 0 10px 0 10px;" alt="">Ms. Amanda</div></td>
                               <td align="center" style="color: #0066CC">Sky Card</td>
                               <td style="color: #0066CC">071 333 333</td>
                               <td style="color: #0066CC">amanda@gmail.com</td>
                             </tr>
-                            <tr height="50px">
-                              <td>Mr. Sanoj Malik</td>
+                            <tr height="65px">
+                              <td><p class="profiletab2">S</p> Mr. Sanoj Malik</td>
                               <td></td>
                               <td style="color: #0066CC">071 444 333</td>
                               <td style="color: #0066CC">sanoj@gmail.com</td>
                             </tr>
-                            <tr height="50px">
-                              <td><div style="display: inline;"><img src="images/profile.jpg" style="height:40px; border-radius: 50%;" alt="">Mr. Damian</div></td>
+                            <tr height="65px">
+                              <td><div style="display: inline;"><img src="images/profile.jpg" style="height:40px; border-radius: 50%; margin : 0 10px 0 10px;" alt="">Mr. Damian</div></td>
                               <td align="center" style="color: #0066CC">Sky Card</td>
                               <td style="color: #0066CC">071 222 444</td>
                               <td style="color: #0066CC">damian@gmail.com</td>
                             </tr>
-                            <tr height="50px">
-                              <td>Mr. Janaka Silva</td>
+                            <tr height="65px">
+                              <td><p class="profiletab3">J</p>Mr. Janaka Silva</td>
                               <td align="center"><i class="fas fa-money-check" style="color: #4B4B4B;"></i></td>
                               <td style="color: #0066CC">071 333 555</td>
                               <td style="color: #0066CC">janaka@gmail.com</td>
                             </tr>
-                            <tr height="50px">
-                              <td>Ms. Natalie</td>
+                            <tr height="65px">
+                              <td><div style="display: inline;"><img src="images/profile2.jpg" style="height:40px; border-radius: 50%; margin : 0 10px 0 10px;" alt="">Ms. Natalie</div></td>
                               <td align="center" style="color: #0066CC">Sky Card</td>
                               <td style="color: #0066CC">071 666 555</td>
                               <td style="color: #0066CC">nat40@gmail.com</td>
@@ -240,7 +242,7 @@
 
                         <div id="deals" class="tabcontent">
                             <br>
-                        <h3 style="font-family: Arial; margin-left: 15px; font-size: 22px;">Deals</h3>
+                        <h3 style="font-family: Arial; font-size: 22px;">Deals</h3>
                         <br>
                           
                           <p>Lorem Lorem</p> 
@@ -251,7 +253,7 @@
 
                         <div id="activities" class="tabcontent">
                             <br>
-                          <h3 style="font-family: Arial; margin-left: 15px; font-size: 22px;">Activities</h3>
+                          <h3 style="font-family: Arial; font-size: 22px;">Activities</h3>
                           <br>
                             <table style="margin-left: 40px; border-style: none;" class="label">          
                               <tr>
@@ -272,7 +274,7 @@
                                </td>
 
                                <td width="90%">     
-                                 <p>Client:  <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Mr. Kumara</a> at hemas pharmacy
+                                 <p>Client:  <a href="#" class="col table-name-head" data-bs-toggle="modal" data-bs-target="#myModal">Mr. Kumara</a> at hemas pharmacy
                                  </p>
                                  <p>Action:  Sent Quotation</p>
                                </td>
@@ -473,249 +475,140 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        
 
 
-        <div class="row">
+<div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-lg" style="margin-top: -90px;">
+          <div class="modal-content ">
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+              <div class="row">
+                  <div class="col-4 p-2 modal-box-left">
+                    <h5 class="profile-image">K</h5>
+                    <h4 class="mt-3 text-center">Mr. Kumara Jayakodi</h4>
+                    <h6 class="mt-2" style="color: #6E6E6E;  text-align: center;">At Hemas pharmaceuticals</h6>
 
-          <div class="columns1">
-    
-             <div style="border-style: groove; border-radius: 8px; margin: 0px 10px 5px 40px; padding: 0px; background: transparent linear-gradient(180deg, #FFFFFF 0%, #D7E4EB 100%) 0% 0% no-repeat padding-box; border: 0.1px solid #707070; border-radius: 9px; opacity: 1;" align="center">
-                  <div>
-                    <br>
-                    <img src="images/profile.jpg" style="height:100px; border-radius: 50%; border: 3px solid #FEDE00;" alt="">
-                  </div>
-                  <div>
-                    <h2 style="font-family: Calibri;">Mr. Kumara Jayakodi</h2>
-                    <h5 style="color: #6E6E6E">At Hemas pharmaceuticals</h5> 
-                  </div>
-                  <br>
-                  <div>
-                    <table border="0" width="90%">
-                      <tr>
-                        <td><p style="font-size: 17px;">Designation</p></td>
-                        <td><p style="font-size: 15px;">&nbsp;&nbsp;Sales Executive</p></td>
-                      </tr>
-                      <tr>
-                        <td><p style="font-size: 17px;">Contact No</p></td>
-                        <td><p style="font-size: 15px;">&nbsp;&nbsp;+9471 888 888</p></td>
-                      </tr>
-                      <tr>
-                        <td><p style="font-size: 17px;">Email</p></td>
-                        <td><p style="font-size: 15px;">&nbsp;&nbsp;kumara@gmail.com</p></td>
-                      </tr>
-                      <tr>
-                        <td><p style="font-size: 17px;">Web</p></td>
-                        <td><p style="font-size: 15px;">&nbsp;&nbsp;www.hemas.lk</p></td>
-                      </tr>
-                      <tr>
-                        <td><p style="font-size: 17px;">Address</p></td>
-                        <td><p style="font-size: 15px;">&nbsp;&nbsp;43, Main Road, Kottawa</p></td>
-                      </tr>
-                    </table>
-                  </div>
+                    <div class="row mt-3">
+                        <div class="col-5">
+                            <p class="mb-2 modal-left-left">Designation</p>
+                            <p class="mb-2 modal-left-left">Contact No</p>
+                            <p class="mb-2 modal-left-left">Email</p>
+                            <p class="mb-2 modal-left-left">Web</p>
+                            <p class="mb-2 modal-left-left">Address</p>
+                     
+                        </div>
+                        <div class="col-7">
+                            <p class="mb-2 modal-left-right">Sales Executive</p>
+                            <p class="mb-2 modal-left-right">+9471 888 888</p>
+                            <p class="mb-2 modal-left-right">kumara@gmail.com</p>
+                            <p class="mb-2 modal-left-right">www.hemas.lk</p>
+                            <p class="mb-2 modal-left-right">43, Main Road, Kottawa</p>
+                        </div>
+                    </div>
 
-                  <br>
+                    <!-- <h5 class="mt-3">Contact</h5> -->
 
-                  <img src="images/visit.JPG" class="mx-auto d-block img-fluid" width="85%">
-                  <p style="margin: 5px 0 0 150px;" "><a href="#" style="text-decoration: none;"> View full card</a></p>
-
-                  <br>
-
-                  <div>
+                    <div class="row mt-3">
+                        <img src="images/visit.JPG" class="mx-auto d-block img-fluid" width="75%" height="90%">
+                        <p style="margin: 5px 0 0 150px;"><a href="#" style="text-decoration: none;"> View full card</a></p>
+                    </div>
+                    
+                    <div class="mt-3" style="text-align: center">
                       <p class="fas fa-envelope" style="color: #1189eb; padding: 15px; font-size: 20px; background: transparent linear-gradient(180deg, #F9F9F9 0%, #ECF5F7 100%) 0% 0% no-repeat padding-box; box-shadow: 0px 2px 9px #095CAE3F; opacity: 1; border-radius: 50%" class="emailchat"></p>
                                       &nbsp;&nbsp;&nbsp;
                       <p class="fas fa-comments" style="color: #1189eb; padding: 15px; font-size: 20px; display: inline; background: transparent linear-gradient(180deg, #F9F9F9 0%, #ECF5F7 100%) 0% 0% no-repeat padding-box; box-shadow: 0px 2px 9px #095CAE3F; opacity: 1; border-radius: 50%" class="emailchat""></p>
                   </div>
-                  <br>
-              </div>    
 
 
-          </div>
+                  </div>
+                  <div class="col-8 ps-5">
+                      <h4>Activities</h4>
 
+                      <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
 
-          <div class="columns2">
-            <h2 style="margin: 20px 0 35px 20px;">Activities</h2>
+                      <div class="date-activity mt-4">
+                        <p class="date">May 16, 2021</p>
+                        <div class="row p-2 border rounded mb-2">
+                            <div class="col-2 text-center">
+                                <img src="images/sent.svg" alt="">
+                                <p class="m-0 modal-right-left">14:43</p>
+                            </div>
+                            <div class="col-10">
+                                <p class="mb-0 modal-right-right">Client : <a href="">Mr. Kumara</a> at Hemas pharamaceutical</p>
+                                <p class="mb-0 modal-right-right">Action : Sent quotation</p>
+                            </div>
+                        </div>
 
+                        <div class="row p-2 border rounded mb-2">
+                            <div class="col-2 text-center">
+                                <img src="images/phone.svg" alt="">
+                                <p class="m-0 modal-right-left">13:43</p>
+                            </div>
+                            <div class="col-10">
+                                <p class="mb-0 modal-right-right">Client : <a href="">Mr. Kumara</a> at Hemas pharamaceutical</p>
+                                <p class="mb-0 modal-right-right">Action : Call 10.23 min</p>
+                            </div>
+                        </div>
 
+                        <div class="row p-2 border rounded mb-2">
+                            <div class="col-2 text-center">
+                                <img src="images/phone.svg" alt="">
+                                <p class="m-0 modal-right-left">11:39</p>
+                            </div>
+                            <div class="col-10">
+                                <p class="mb-0 modal-right-right">Client : <a href="">Mr. Kumara</a> at Hemas pharamaceutical</p>
+                                <p class="mb-0 modal-right-right">Action : Call 2.29 min</p>
+                            </div>
+                        </div>
+                      </div>
 
+                      <div class="date-activity mt-4">
+                        <p class="date">May 15, 2021</p>
+                        <div class="row p-2 border rounded mb-2">
+                            <div class="col-2 text-center">
+                                <img src="images/sent.svg" alt="">
+                                <p class="m-0 modal-right-left">20:39</p>
+                            </div>
+                            <div class="col-10">
+                                <p class="mb-0 modal-right-right">Client : <a href="">Mr. Kumara</a> at Hemas pharamaceutical</p>
+                                <p class="mb-0 modal-right-right">Action : Sent email</p>
+                            </div>
+                        </div>
 
-        <!---start--->
+                        <div class="row p-2 border mb-2">
+                            <div class="col-2 text-center">
+                                <img src="images/sent.svg" alt="">
+                                <p class="m-0 modal-right-left">20:39</p>
+                            </div>
+                            <div class="col-10">
+                                <p class="mb-0 modal-right-right">Client : <a href="">Mr. Kumara</a> at Hemas pharamaceutical</p>
+                                <p class="mb-0 modal-right-right">Action : Sent email</p>
+                            </div>
+                        </div>
+                      </div>
 
-             <table style="margin-left: 40px; border-style: none;" class="label">          
-                      <tr>
-                        <td>May 16, 2021</td>
-                      </tr>                            
-                    </table>
-                    
-                    <table width="80%" height="80px;" class="singlesec">
-                      <tr>
-                       <td width="10%">                 
-                        <p class="fas fa-cloud-upload-alt" style="color: #1189eb; margin-left: 15px;"></p>
+                      <div class="date-activity mt-4">
+                        <p class="date">May 13, 2021</p>
+                        <div class="row p-2 border rounded mb-2">
+                            <div class="col-2 text-center">
+                                <img src="images/meetup.svg" alt="">
+                                <p class="m-0 modal-right-left">10:39</p>
+                            </div>
+                            <div class="col-10">
+                                <p class="mb-0 modal-right-right">Client : <a href="">Mr. Kumara</a> at Hemas pharamaceutical</p>
+                                <p class="mb-0 modal-right-right">Action : Meet up</p>
+                            </div>
+                        </div>
+                      </div>
 
-                        <table class="timelabel">           
-                          <tr>
-                            <td>14.43</td>
-                          </tr>                            
-                        </table>
-                       </td>
-
-                       <td width="90%">     
-                         <p>Client:  <a href="#" style="color: #1189eb;">Mr. Kumara</a> at hemas pharmacy</p>
-                         <p>Action:  Sent Quotation</p>
-                       </td>
-                      </tr>
-                    </table>
-                    <br>
-                    <table width="80%" height="80px;" class="singlesec">
-                      <tr>
-                       <td width="10%">                 
-                        <p class="fas fa-cloud-upload-alt" style="color: #1189eb; margin-left: 15px;"></p>
-
-                        <table class="timelabel">           
-                          <tr>
-                            <td>14.43</td>
-                          </tr>                            
-                        </table>
-                       </td>
-
-                       <td width="90%">     
-                         <p>Client:  <a href="#" style="color: #1189eb;">Mr. Kumara</a> at hemas pharmacy</p>
-                         <p>Action:  Sent Quotation</p>
-                       </td>
-                      </tr>
-                    </table>
-                    <br>
-                    <table width="80%" height="80px;" class="singlesec">
-                      <tr>
-                       <td width="10%">                 
-                        <p class="fas fa-cloud-upload-alt" style="color: #1189eb; margin-left: 15px;"></p>
-
-                        <table class="timelabel">           
-                          <tr>
-                            <td>14.43</td>
-                          </tr>                            
-                        </table>
-                       </td>
-
-                       <td width="90%">     
-                         <p>Client:  <a href="#" style="color: #1189eb;">Mr. Kumara</a> at hemas pharmacy</p>
-                         <p>Action:  Sent Quotation</p>
-                       </td>
-                      </tr>
-                    </table>
-
-                     <!--**********-->     
-                    <br>
-
-                    <table style="margin-left: 40px; border-style: none;" class="label">          
-                      <tr>
-                        <td>May 16, 2021</td>
-                      </tr>                            
-                    </table>
-                    
-                    <table width="80%" height="80px;" class="singlesec">
-                      <tr>
-                       <td width="10%">                 
-                        <p class="fas fa-cloud-upload-alt" style="color: #1189eb; margin-left: 15px;"></p>
-
-                        <table class="timelabel">           
-                          <tr>
-                            <td>14.43</td>
-                          </tr>                            
-                        </table>
-                       </td>
-
-                       <td width="90%">     
-                         <p>Client:  <a href="#" style="color: #1189eb;">Mr. Kumara</a> at hemas pharmacy</p>
-                         <p>Action:  Sent Quotation</p>
-                       </td>
-                      </tr>
-                    </table>
-                    <br>
-                    <table width="80%" height="80px;" class="singlesec">
-                      <tr>
-                       <td width="10%">                 
-                        <p class="fas fa-cloud-upload-alt" style="color: #1189eb; margin-left: 15px;"></p>
-
-                        <table class="timelabel">           
-                          <tr>
-                            <td>14.43</td>
-                          </tr>                            
-                        </table>
-                       </td>
-
-                       <td width="90%">     
-                         <p>Client:  <a href="#" style="color: #1189eb;">Mr. Kumara</a> at hemas pharmacy</p>
-                         <p>Action:  Sent Quotation</p>
-                       </td>
-                      </tr>
-                    </table>
-                    <br>
-                    
-                    <table style="margin-left: 40px; border-style: none;" class="label">          
-                      <tr>
-                        <td>May 16, 2021</td>
-                      </tr>                            
-                    </table>
-
-                    <table width="80%" height="80px;" class="singlesec">
-                      <tr>
-                       <td width="10%">                 
-                        <p class="fas fa-cloud-upload-alt" style="color: #1189eb; margin-left: 15px;"></p>
-
-                        <table class="timelabel">           
-                          <tr>
-                            <td>14.43</td>
-                          </tr>                            
-                        </table>
-                       </td>
-
-                       <td width="90%">     
-                         <p>Client:  <a href="#" style="color: #1189eb;">Mr. Kumara</a> at hemas pharmacy</p>
-                         <p>Action:  Sent Quotation</p>
-                       </td>
-                      </tr>
-                    </table>
-                    
-
-                    <!--**********-->     
-                    
-                    
-
-        <!---end -->
-
-
-
+                  </div>
+              </div>
+            </div>
 
           </div>
         </div>
-
-
       </div>
-    
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
