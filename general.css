@@ -27,6 +27,9 @@
     font-size: 20px;
     font-weight: 600;
 }
+.dropdown-menu {
+    min-width: 12rem!important;
+}
 
 
 
@@ -43,6 +46,9 @@
 .side-nav:hover {
     background-color: gray;
     cursor: pointer;
+}
+.sidebar ul li a:hover {
+    color: white;
 }
 .sidebar ul li {
     font-size: 15px;

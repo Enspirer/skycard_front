@@ -17,3 +17,6 @@ select[4].onchange = function () {
 select[5].onchange = function () {
     select[5].className = 'form-control table-select ' + this.options[this.selectedIndex].className;
 }
+select[6].onchange = function () {
+    select[6].className = 'table-select ' + this.options[this.selectedIndex].className;
+}

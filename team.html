@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="team.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     
-
     <title>Team</title>
   </head>
 
@@ -56,7 +55,7 @@
                                         <img src="images/team.svg" alt="">
                                     </div>
                                     <div class="col-8">
-                                        <a href="#">Team</a>
+                                        <a href="http://127.0.0.1:5500/team.html">Team</a>
                                     </div>
                                 </div>
                             </li>
@@ -67,7 +66,7 @@
                                         <img src="images/deals.svg" alt="">
                                     </div>
                                     <div class="col-8">
-                                        <a href="#"> Deals in Progress</a>
+                                        <a href="http://127.0.0.1:5500/deals-in-progrss.html"> Deals in Progress</a>
                                     </div>
                                 </div>
                             </li>
@@ -110,83 +109,147 @@
 
             <div class="col-10 ps-5 right" style="margin-top: 130px;">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-6">
                         <h3>Company Division</h3>
-
-                        <div class="dropdown m-3">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width: 70%;">
-                              Sales Team <span>(15,032 Cards)</span>
-                            </button>
-                            <div class="dropdown-menu" style="width: 70%;">
-                              <a class="dropdown-item" href="#">Amila Perera<span class="float-right">1043</span></a>
-                              <a class="dropdown-item" href="#">S.S.D Jayasekara<span>1043</span></a>
-                              <a class="dropdown-item" href="#">Nimal Dissanayeka<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Naveen Appu<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Kasun Perera<span>1021</span></a>
+                        
+                        <div class="company-division">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h3 class="mb-0">
+                                  <button class="btn fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Sales Team <span class="text-muted fw-normal">(15,032 cards)</span>
+                                  </button>
+                                </h3>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne">
+                                <div class="card-body ps-5">
+                                  <p>Amila Perera <span class="drop-number">1043</span></p>
+                                  <p>S.S.D Jayasekara <span class="drop-number">3043</span></p>
+                                  <p>Nimal Dissanayeka <span class="drop-number">2043</span></p>
+                                  <p>Naveen Appu <span class="drop-number">7043</span></p>
+                                  <p>Kasun Perera <span class="drop-number">1021</span></p>
+                                </div>
+                              </div>
                             </div>
-                          </div>
 
-                          <div class="dropdown m-3">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width: 70%;">
-                              Management Team <span>(9,032 Cards)</span>
-                            </button>
-                            <div class="dropdown-menu" style="width: 70%;">
-                              <a class="dropdown-item" href="#">Amila Perera<span class="float-right">1043</span></a>
-                              <a class="dropdown-item" href="#">S.S.D Jayasekara<span>1043</span></a>
-                              <a class="dropdown-item" href="#">Nimal Dissanayeka<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Naveen Appu<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Kasun Perera<span>1021</span></a>
-                            </div>
-                          </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                  <h5 class="mb-0">
+                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Management Team <span class="text-muted fw-normal">(9,032 cards)</span>
+                                    </button>
+                                  </h5>
+                                </div>
+                            
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                                  <div class="card-body ps-5">
+                                    <p>Amila Perera <span class="drop-number">1043</span></p>
+                                    <p>S.S.D Jayasekara <span class="drop-number">3043</span></p>
+                                    <p>Nimal Dissanayeka <span class="drop-number">2043</span></p>
+                                    <p>Naveen Appu <span class="drop-number">7043</span></p>
+                                    <p>Kasun Perera <span class="drop-number">1021</span></p>
+                                  </div>
+                                </div>
+                              </div>
 
-                          <div class="dropdown m-3">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width: 70%;">
-                              HR Team <span>(10,032 Cards)</span>
-                            </button>
-                            <div class="dropdown-menu" style="width: 70%;">
-                              <a class="dropdown-item" href="#">Amila Perera<span class="float-right">1043</span></a>
-                              <a class="dropdown-item" href="#">S.S.D Jayasekara<span>1043</span></a>
-                              <a class="dropdown-item" href="#">Nimal Dissanayeka<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Naveen Appu<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Kasun Perera<span>1021</span></a>
-                            </div>
-                          </div>
+                              <div class="card">
+                                <div class="card-header" id="headingThree">
+                                  <h5 class="mb-0">
+                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      HR Team <span class="text-muted fw-normal">(10,032 cards)</span>
+                                    </button>
+                                  </h5>
+                                </div>
+                            
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
+                                  <div class="card-body ps-5">
+                                    <p>Amila Perera <span class="drop-number">1043</span></p>
+                                    <p>S.S.D Jayasekara <span class="drop-number">3043</span></p>
+                                    <p>Nimal Dissanayeka <span class="drop-number">2043</span></p>
+                                    <p>Naveen Appu <span class="drop-number">7043</span></p>
+                                    <p>Kasun Perera <span class="drop-number">1021</span></p>
+                                  </div>
+                                </div>
+                              </div>
 
-                          <div class="dropdown m-3">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width: 70%;">
-                              Lorem Team Team <span>(10,032 Cards)</span>
-                            </button>
-                            <div class="dropdown-menu" style="width: 70%;">
-                              <a class="dropdown-item" href="#">Amila Perera<span class="float-right">1043</span></a>
-                              <a class="dropdown-item" href="#">S.S.D Jayasekara<span>1043</span></a>
-                              <a class="dropdown-item" href="#">Nimal Dissanayeka<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Naveen Appu<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Kasun Perera<span>1021</span></a>
-                            </div>
-                          </div>
+                              <div class="card">
+                                <div class="card-header" id="headingFour">
+                                  <h5 class="mb-0">
+                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      Lorem Team <span class="text-muted fw-normal">(10,032 cards)</span>
+                                    </button>
+                                  </h5>
+                                </div>
+                            
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
+                                  <div class="card-body ps-5">
+                                    <p>Amila Perera <span class="drop-number">1043</span></p>
+                                    <p>S.S.D Jayasekara <span class="drop-number">3043</span></p>
+                                    <p>Nimal Dissanayeka <span class="drop-number">2043</span></p>
+                                    <p>Naveen Appu <span class="drop-number">7043</span></p>
+                                    <p>Kasun Perera <span class="drop-number">1021</span></p>
+                                  </div>
+                                </div>
+                              </div>
 
-                          <div class="dropdown m-3">
-                            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" style="width: 70%;">
-                              Lorem Team <span>(10,032 Cards)</span>
-                            </button>
-                            <div class="dropdown-menu" style="width: 70%;">
-                              <a class="dropdown-item" href="#">Amila Perera<span class="float-right">1043</span></a>
-                              <a class="dropdown-item" href="#">S.S.D Jayasekara<span>1043</span></a>
-                              <a class="dropdown-item" href="#">Nimal Dissanayeka<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Naveen Appu<span>2043</span></a>
-                              <a class="dropdown-item" href="#">Kasun Perera<span>1021</span></a>
-                            </div>
-                          </div>
+                              <div class="card">
+                                <div class="card-header" id="headingFive">
+                                  <h5 class="mb-0">
+                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                      Lorem Team <span class="text-muted fw-normal">(10,032 cards)</span>
+                                    </button>
+                                  </h5>
+                                </div>
+                            
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
+                                  <div class="card-body ps-5">
+                                    <p>Amila Perera <span class="drop-number">1043</span></p>
+                                    <p>S.S.D Jayasekara <span class="drop-number">3043</span></p>
+                                    <p>Nimal Dissanayeka <span class="drop-number">2043</span></p>
+                                    <p>Naveen Appu <span class="drop-number">7043</span></p>
+                                    <p>Kasun Perera <span class="drop-number">1021</span></p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
                     </div>
     
-                    <div class="col">
+                    <div class="col-6">
                         <h3>Card Analytics</h3>
+
+                        <div id="chart">
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/dist/echarts.min.js"></script>
+        <!-- Uncomment this line if you want to dataTool extension
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/dist/extension/dataTool.min.js"></script>
+        -->
+        <!-- Uncomment this line if you want to use gl extension
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+        -->
+        <!-- Uncomment this line if you want to echarts-stat extension
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+        -->
+        <!-- Uncomment this line if you want to use map
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/map/js/china.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/map/js/world.js"></script>
+        -->
+        <!-- Uncomment these two lines if you want to use bmap extension
+        <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=<Your Key Here>"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/dist/extension/bmap.min.js"></script>
+        -->
+
+        <script src="team.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
