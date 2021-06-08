@@ -11,16 +11,16 @@
     color: white;
 }
 .account button {
-    padding: 15px 35px;
+    padding: 8px 25px;
     border-radius: 30px;
     outline: none;
     border: none;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 .account button span {
-    padding: 16px 22px;
+    padding: 9px 15px;
     position: relative;
-    left: -35px;
+    left: -25px;
     background: #CAE5F7 0% 0% no-repeat;
     border-radius: 30px;
     color: #064868;
@@ -28,7 +28,7 @@
     font-weight: 600;
 }
 .dropdown-menu {
-    min-width: 12rem!important;
+    min-width: 10rem!important;
 }
 
 
@@ -41,7 +41,7 @@
     height: 100vh;
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #D7E4EB 100%) 0% 0% no-repeat padding-box;
     box-shadow: 8px 5px 20px #0050A035;
-    padding-top: 80px;
+    padding-top: 50px;
 }
 .side-nav:hover {
     background-color: gray;
