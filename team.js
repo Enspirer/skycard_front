@@ -40,44 +40,18 @@ if (option && typeof option === 'object') {
 const cards = document.querySelectorAll('.card .card-header');
 const span = document.querySelectorAll('.card-span')
 
+let no = 0;
 
-if (cards[0].getAttribute('aria-expanded')  == 'true') {
-    span[0].setAttribute('class', 'fa fa-chevron-up');
-}
-else {
-    span[0].setAttribute('class', 'fa fa-chevron-down');
-}
-
-if (cards[1].getAttribute('aria-expanded')  == 'true') {
-    span[1].setAttribute('class', 'fa fa-chevron-up');
-}
-else {
-    span[1].setAttribute('class', 'fa fa-chevron-down');
-}
-
-
-if (cards[2].getAttribute('aria-expanded')  == 'true') {
-    span[2].setAttribute('class', 'fa fa-chevron-up');
-}
-else {
-    span[2].setAttribute('class', 'fa fa-chevron-down');
-}
-
-
-if (cards[3].getAttribute('aria-expanded')  == 'true') {
-    span[3].setAttribute('class', 'fa fa-chevron-up');
-}
-else {
-    span[3].setAttribute('class', 'fa fa-chevron-down');
-}
-
-
-if (cards[4].getAttribute('aria-expanded')  == 'true') {
-    span[4].setAttribute('class', 'fa fa-chevron-up');
-}
-else {
-    span[4].setAttribute('class', 'fa fa-chevron-down');
-}
+cards.forEach(card => {
+    if (cards[no].getAttribute('aria-expanded')  == 'true') {
+        span[no].setAttribute('class', 'fa fa-chevron-up');
+        no++;
+    }
+    else {
+        span[no].setAttribute('class', 'fa fa-chevron-down');
+        no++;
+    }
+});
 
 
 function myFunc0() {
