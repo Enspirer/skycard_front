@@ -47,8 +47,6 @@ th {
 }
 
 
-
-
 /*m*/
 
 .row {
@@ -65,6 +63,30 @@ th {
   flex: 60%;
   padding: 5px;
   
+}
+
+.userdetails{
+  border-style: groove; 
+  border-radius: 8px; 
+  margin: 0px 10px 5px 40px; 
+  padding: 0px; 
+  background: transparent linear-gradient(164deg, #FFFFFF 0%, #F2F9FD 100%) 0% 0% no-repeat padding-box; 
+  box-shadow: 0px 7px 20px #0050774D; 
+  border: 0.1px solid #c4c1c1; 
+  border-radius: 9px; 
+  opacity: 1;
+}
+
+.emailchat{
+
+color: #1189eb; 
+padding: 15px; 
+font-size: 20px; 
+background: transparent linear-gradient(180deg, #F9F9F9 0%, #ECF5F7 100%) 0% 0% no-repeat padding-box; 
+box-shadow: 0px 2px 9px #095CAE3F; 
+opacity: 1; 
+border-radius: 50%;
+
 }
 
 .profiletab {
@@ -113,21 +135,11 @@ height: 50px;
 }
 
 
-
 /*************** Style the tab start **************/
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
- /* padding: 10px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-
-    width: 100%;
-  border: none;*/
-
   background: transparent linear-gradient(99deg, #FFFFFF 0%, #F2F9FD 100%) 0% 0% no-repeat padding-box;
   box-shadow: 0px 7px 20px #00507736;
   border-radius: 8px;
@@ -299,7 +311,6 @@ height: 50px;
   height: 100%; 
   margin-top: 40px;
 }
-
 
 
 /*pop*/
