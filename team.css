@@ -1,14 +1,13 @@
 .company-division .card{
-    width: 70%;
+    width: 90%;
     margin: 15px 0;
     border: 0.5px solid #707070;
     border-radius: 8px;
 }
 #chart {
     margin: 0 auto;
-    height: 60%;
+    height: 80%;
 }
-.drop-number {
-    float: right;
-    color: #B0B0B0;
+.card-header {
+    cursor: pointer;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="team.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     
     <title>Team</title>
   </head>
@@ -15,7 +16,7 @@
   <body>
 
     <header class="container-fluid">
-        <nav class="navbar row p-3 fixed-top" style="background-color: #003467;">
+        <nav class="navbar row p-2 fixed-top" style="background-color: #003467;">
             <div class="col-9 text-white logo">
                 <h2 class="logo-sky">Sky Cards <span class="logo-elite">Elite</span></h2>
             </div>
@@ -107,18 +108,19 @@
                     </nav>
             </div>
 
-            <div class="col-10 ps-5 right" style="margin-top: 130px;">
+            <div class="col-10 ps-5 right" style="margin-top: 100px;">
                 <div class="row">
                     <div class="col-5">
                         <h3>Company Division</h3>
                         
-                        <div class="accordion md-accordion company-division" id="accordionEx" role="tablist" aria-multiselectable="true">
+                        <div class="accordion company-division" id="accordion">
                             <div class="card">
-                              <div class="card-header" id="headingOne">
+                              <div class="card-header" id="headingOne" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="myFunc0()">
                                 <h3 class="mb-0">
-                                  <button class="btn fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Sales Team <span class="text-muted fw-normal">(15,032 cards)</span><i class="fas fa-angle-down rotate-icon"></i>
+                                  <button class="btn fw-bold">
+                                    Sales Team <span class="text-muted fw-normal">(15,032 cards)</span>
                                   </button>
+                                  <span class="card-span" style="float: right;"></span>
                                 </h3>
                               </div>
                           
@@ -134,12 +136,13 @@
                             </div>
 
                             <div class="card">
-                                <div class="card-header" id="headingTwo">
-                                  <h5 class="mb-0">
-                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="card-header" id="headingTwo" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" onclick="myFunc1()">
+                                  <h3 class="mb-0">
+                                    <button class="btn fw-bold" >
                                       Management Team <span class="text-muted fw-normal">(9,032 cards)</span>
                                     </button>
-                                  </h5>
+                                    <span class="card-span" style="float: right;"></span>
+                                  </h3>
                                 </div>
                             
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
@@ -154,12 +157,13 @@
                               </div>
 
                               <div class="card">
-                                <div class="card-header" id="headingThree">
-                                  <h5 class="mb-0">
-                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <div class="card-header" id="headingThree"  data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" onclick="myFunc2()">
+                                  <h3 class="mb-0">
+                                    <button class="btn collapsed fw-bold">
                                       HR Team <span class="text-muted fw-normal">(10,032 cards)</span>
                                     </button>
-                                  </h5>
+                                    <span class="card-span" style="float: right;"></span>
+                                  </h3>
                                 </div>
                             
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree">
@@ -174,12 +178,13 @@
                               </div>
 
                               <div class="card">
-                                <div class="card-header" id="headingFour">
-                                  <h5 class="mb-0">
-                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <div class="card-header" id="headingFour" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" onclick="myFunc3()">
+                                  <h3 class="mb-0">
+                                    <button class="btn collapsed fw-bold">
                                       Lorem Team <span class="text-muted fw-normal">(10,032 cards)</span>
                                     </button>
-                                  </h5>
+                                    <span class="card-span" style="float: right;"></span>
+                                  </h3>
                                 </div>
                             
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour">
@@ -194,12 +199,13 @@
                               </div>
 
                               <div class="card">
-                                <div class="card-header" id="headingFive">
-                                  <h5 class="mb-0">
-                                    <button class="btn collapsed fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <div class="card-header" id="headingFive" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" onclick="myFunc4()">
+                                  <h3 class="mb-0">
+                                    <button class="btn collapsed fw-bold">
                                       Lorem Team <span class="text-muted fw-normal">(10,032 cards)</span>
                                     </button>
-                                  </h5>
+                                    <span class="card-span" style="float: right;"></span>
+                                  </h3>
                                 </div>
                             
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive">
@@ -220,7 +226,6 @@
 
                         <div id="chart">
                           
-
                         </div>
                     </div>
                 </div>
@@ -229,28 +234,9 @@
     </section>
 
 
-    
-
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/dist/echarts.min.js"></script>
-        <!-- Uncomment this line if you want to dataTool extension
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/dist/extension/dataTool.min.js"></script>
-        -->
-        <!-- Uncomment this line if you want to use gl extension
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
-        -->
-        <!-- Uncomment this line if you want to echarts-stat extension
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
-        -->
-        <!-- Uncomment this line if you want to use map
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/map/js/china.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/map/js/world.js"></script>
-        -->
-        <!-- Uncomment these two lines if you want to use bmap extension
-        <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=<Your Key Here>"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-nightly@5.1.2-dev.20210512/dist/extension/bmap.min.js"></script>
-        -->
 
-        <script src="team.js"></script>
+    <script src="team.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 

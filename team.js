@@ -34,3 +34,93 @@ option = {
 if (option && typeof option === 'object') {
     myChart.setOption(option);
 }
+
+
+
+const cards = document.querySelectorAll('.card .card-header');
+const span = document.querySelectorAll('.card-span')
+
+
+if (cards[0].getAttribute('aria-expanded')  == 'true') {
+    span[0].setAttribute('class', 'fa fa-chevron-up');
+}
+else {
+    span[0].setAttribute('class', 'fa fa-chevron-down');
+}
+
+if (cards[1].getAttribute('aria-expanded')  == 'true') {
+    span[1].setAttribute('class', 'fa fa-chevron-up');
+}
+else {
+    span[1].setAttribute('class', 'fa fa-chevron-down');
+}
+
+
+if (cards[2].getAttribute('aria-expanded')  == 'true') {
+    span[2].setAttribute('class', 'fa fa-chevron-up');
+}
+else {
+    span[2].setAttribute('class', 'fa fa-chevron-down');
+}
+
+
+if (cards[3].getAttribute('aria-expanded')  == 'true') {
+    span[3].setAttribute('class', 'fa fa-chevron-up');
+}
+else {
+    span[3].setAttribute('class', 'fa fa-chevron-down');
+}
+
+
+if (cards[4].getAttribute('aria-expanded')  == 'true') {
+    span[4].setAttribute('class', 'fa fa-chevron-up');
+}
+else {
+    span[4].setAttribute('class', 'fa fa-chevron-down');
+}
+
+
+function myFunc0() {
+    if (cards[0].getAttribute('aria-expanded')  == 'true') {
+        span[0].setAttribute('class', 'fa fa-chevron-up');
+    }
+    else {
+        span[0].setAttribute('class', 'fa fa-chevron-down');
+    }
+}
+
+function myFunc1() {
+    if (cards[1].getAttribute('aria-expanded')  == 'true') {
+        span[1].setAttribute('class', 'fa fa-chevron-up');
+    }
+    else {
+        span[1].setAttribute('class', 'fa fa-chevron-down');
+    }
+}
+
+function myFunc2() {
+    if (cards[2].getAttribute('aria-expanded')  == 'true') {
+        span[2].setAttribute('class', 'fa fa-chevron-up');
+    }
+    else {
+        span[2].setAttribute('class', 'fa fa-chevron-down');
+    }
+}
+
+function myFunc3() {
+    if (cards[3].getAttribute('aria-expanded')  == 'true') {
+        span[3].setAttribute('class', 'fa fa-chevron-up');
+    }
+    else {
+        span[0].setAttribute('class', 'fa fa-chevron-down');
+    }
+}
+
+function myFunc4() {
+    if (cards[4].getAttribute('aria-expanded')  == 'true') {
+        span[4].setAttribute('class', 'fa fa-chevron-up');
+    }
+    else {
+        span[4].setAttribute('class', 'fa fa-chevron-down');
+    }
+}
