@@ -86,7 +86,7 @@ function myFunc3() {
         span[3].setAttribute('class', 'fa fa-chevron-up');
     }
     else {
-        span[0].setAttribute('class', 'fa fa-chevron-down');
+        span[3].setAttribute('class', 'fa fa-chevron-down');
     }
 }
 
